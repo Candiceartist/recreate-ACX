@@ -1,0 +1,234 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.h1{
+    font-size: x-large;
+}
+.h2{
+    font-size: large;
+    font-weight: bold;
+}
+.h3{
+    font-size: medium;
+    font-weight:lighter;
+    font-family: sans-serif;
+}
+
+.h4{
+    font-size: meidum;
+    font-weight: lighter;
+    color: rgb(6, 139, 184);
+}
+p{
+    font-size: small;
+}
+
+nav{
+    background: rgb(72, 1, 143)
+;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+color:rgba(242, 189, 65, 0.999);
+font-size:35px;
+line-height: 80px;
+padding: 0 100px;
+font-weight: bold;
+}
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: rgb(95, 70, 142);
+    transition: .5s;
+}
+
+.navbar {
+    width: 100%;
+    box-shadow: 0 1px 4px rgba(14, 14, 14, 0.15);
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+  }
+  
+  .navbar .menu-items {
+    display: flex;
+    color: #020202;
+  }
+  
+  .navbar .nav-container li {
+    list-style: none;
+  }
+  
+  .navbar .nav-container a {
+    text-decoration: none;
+    color: #020202;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+  }
+  
+  .navbar .nav-container a:hover{
+      font-weight: bolder;
+  }
+  
+  .nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+  }
+  
+  .nav-container .checkbox {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .nav-container .hamburger-lines {
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .nav-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #cbdce6;
+  }
+  
+  .nav-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .nav-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .nav-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .navbar .menu-items2 {
+    padding-top: 120px;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    height: 100vh;
+    width: 100%;
+    color:#020202;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding-left: 100px;
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+  }
+  
+  .navbar .menu-items2 li {
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:#020202
+  }
+  
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+    transform: translateX(0);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+  }
+  
+  .nav-container input[type="checkbox"]:checked ~ .logo{
+    display: none;
+  }
+  
+  .firstbox{
+    float: right; width:70%;
+    border-bottom: solid gray 1px; 
+  }
+
+  .firstboxh1{
+    font-size: x-large;
+    font-weight: bold;
+  }
+.image1{
+    width: 800px;
+}
+  .image2{
+    width: 900px;
+    margin-left: 0%;
+  }
+  .textbox1{
+float:right; width:70%;
+margin-right: 3px;
+margin-top: 5px;
+padding-right: 20px;
+padding-left: 10px;
+ }
+
+ .howbox{
+    float:right; width:50%;
+    margin-right: 300px;
+    margin-top: 5px;
+    padding-right: 20px;
+    padding-left: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.picbox{
+    width: 60%;
+}
+.texbox{
+    height:35%;
+    text-align:left;
+}
